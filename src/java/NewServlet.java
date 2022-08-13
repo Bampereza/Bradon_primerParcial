@@ -49,7 +49,7 @@ public class NewServlet extends HttpServlet {
                  registroCliente=new ClienteController();
             }
            
-            registroCliente.guardarCliente(cliente);
+             registroCliente.guardarCliente(cliente);
              ClientesRegistrados= registroCliente.getCliente();
             
             respuesta.println("<!DOCTYPE html>");
